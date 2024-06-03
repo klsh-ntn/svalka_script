@@ -24,11 +24,11 @@ latex2greek[ r'$\tau$' ] = 'τ'
 latex2greek[ r'$\varphi$' ] = 'φ'
 latex2greek[ r'$\omega$' ] = 'ω'
 latex2greek[ r'$\chi$' ] = 'χ'
-#latex2greek[ r'$\upsilon$' ] = 'υ'
+# latex2greek[ r'$\upsilon$' ] = 'υ'
 latex2greek[ r'$\psi$' ] = 'ψ'
 latex2greek[ r'$\nu$' ] = 'ν'
 
-year = 2018
+year = 2022
 
 schedule = []
 

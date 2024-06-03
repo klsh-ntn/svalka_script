@@ -30,27 +30,27 @@ def rankmap(scoremap):
 
 scoremap_main = {}
 scoremap_main[r'$\chi$'] = 21
-scoremap_main[r'$o$'] = 18
-scoremap_main[r'$\gamma$'] = 18
-scoremap_main[r'$\eta$'] = 18
-scoremap_main[r'$\lambda$'] = 13
-scoremap_main[r'$\xi$'] = 13
-scoremap_main[r'$\kappa$'] = 13
-scoremap_main[r'$\beta$'] = 13
-scoremap_main[r'$\rho$'] = 13
-scoremap_main[r'$\theta$'] = 9
-scoremap_main[r'$\varphi$'] = 9
-scoremap_main[r'$\varepsilon$'] = 9
-scoremap_main[r'$\iota$'] = 9
-scoremap_main[r'$\nu$'] = 5
-scoremap_main[r'$\omega$'] = 5
-scoremap_main[r'$\alpha$'] = 5
-scoremap_main[r'$\tau$'] = 5
-scoremap_main[r'$\delta$'] = 3
-scoremap_main[r'$\mu$'] = 3
-scoremap_main[r'$\psi$'] = 1
-scoremap_main[r'$\pi$'] = 1
-scoremap_main[r'$\sigma$'] = 0
+scoremap_main[r'$\delta$'] = 20
+scoremap_main[r'$\tau$'] = 19
+scoremap_main[r'$\alpha$'] = 18
+scoremap_main[r'$\beta$'] = 17
+scoremap_main[r'$o$'] = 16
+scoremap_main[r'$\rho$'] = 15
+scoremap_main[r'$\nu$'] = 14
+scoremap_main[r'$\theta$'] = 13
+scoremap_main[r'$\iota$'] = 12
+scoremap_main[r'$\eta$'] = 11
+scoremap_main[r'$\varphi$'] = 10
+scoremap_main[r'$\gamma$'] = 9
+scoremap_main[r'$\kappa$'] = 8
+scoremap_main[r'$\lambda$'] = 7
+scoremap_main[r'$\xi$'] = 6
+scoremap_main[r'$\mu$'] = 5
+scoremap_main[r'$\pi$'] = 4
+scoremap_main[r'$\sigma$'] = 3
+scoremap_main[r'$\omega$'] = 2
+scoremap_main[r'$\varepsilon$'] = 1
+scoremap_main[r'$\psi$'] = 0
 
 #################
 #### Свалка: ####
@@ -127,12 +127,12 @@ html_out = '''
 '''
 
 html_out = html_out + '<p align="center"><table><tr>\n'
-html_out = html_out + '<td><img src="file:///home/astronaut/Documents/Python/klshlogo.png" '
+html_out = html_out + '<td><img src="klshlogo.png" '
 html_out = html_out + 'height="300" width="300" alt="логотип КЛШ" /></td>\n'
 
 html_out = html_out + '<td><table>\n'
 html_out = html_out + '<tr align="center"><td><h1><font color="#0066FF">КРАСНОЯРСКАЯ ЛЕТНЯЯ ШКОЛА</font></h1></td></tr>\n'
-html_out = html_out + '<tr align="center"><td><h2><font color="#0066FF">Сезон 2018 года</font></h2></td></tr>\n'
+html_out = html_out + '<tr align="center"><td><h2><font color="#0066FF">Сезон 2022 года</font></h2></td></tr>\n'
 html_out = html_out + '</table></td>\n'
 
 html_out = html_out + '</tr></table></p>\n'
@@ -209,12 +209,12 @@ out = r'''% This is a generated file, do not edit
 
 \begin{center}
 \begin{tabular}{cc}
-\includegraphics[scale=0.48]{../klshlogo.pdf} &
+\includegraphics[scale=0.48]{klshlogo.pdf} &
 \raisebox{0.5cm}{
   \begin{tabular}{c}
     {\Large\bf КРАСНОЯРСКАЯ ЛЕТНЯЯ ШКОЛА}\\
     \ \\
-    {\large\bf Сезон 2010 года}\\
+    {\large\bf Сезон 2022 года}\\
    \end{tabular}
 }
 \end{tabular}
